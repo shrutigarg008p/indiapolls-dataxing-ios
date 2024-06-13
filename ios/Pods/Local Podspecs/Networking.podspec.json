@@ -1,0 +1,27 @@
+{
+  "name": "Networking",
+  "version": "0.1.0",
+  "summary": "A short description of Networking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/polls/Networking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "polls": "polls@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/polls/Networking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Networking/Module/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

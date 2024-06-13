@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DropDownView" customModule="India_Polls" customModuleProvider="target">
+            <connections>
+                <outlet property="rootView" destination="iN0-l3-epB" id="J0P-F0-xPj"/>
+                <outlet property="textField" destination="lDE-Ou-M4F" id="jiT-50-HXA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lDE-Ou-M4F" customClass="MDCOutlinedTextField">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="lDE-Ou-M4F" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="SX2-hk-ltj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lDE-Ou-M4F" secondAttribute="trailing" id="Xgq-Y8-Ox5"/>
+                <constraint firstItem="lDE-Ou-M4F" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="YNh-za-IaG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lDE-Ou-M4F" secondAttribute="bottom" id="zPF-J6-T1j"/>
+            </constraints>
+            <point key="canvasLocation" x="66" y="20"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8982222E-9EA5-4D79-8E5A-2EFED9CEF329"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CBED1CD-1FF4-4017-9316-751EEA64C9A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "India Polls/ViewModels/EnterAddressViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "initialize(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A971BF42-4ADD-4CB7-98F5-80232D50E9C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "India Polls/ViewModels/EnterAddressViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "initialize(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A971BF42-4ADD-4CB7-98F5-80232D50E9C9 - 34d8630da7922f3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async throws -&gt; India_Polls.ServerResponseDto&lt;India_Polls.RegioDto&gt; in India_Polls.EnterAddressViewModel.initialize(with: Swift.Optional&lt;Swift.Dictionary&lt;India_Polls.KeyType, Any&gt;&gt;) -&gt; ()"
+                  moduleName = "India Polls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandeeppandey/Repo/indiapolls/src/ios/India%20Polls/ViewModels/EnterAddressViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "A971BF42-4ADD-4CB7-98F5-80232D50E9C9 - ed2257713b251f75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 () async throws -&gt; India_Polls.ServerResponseDto&lt;India_Polls.RegioDto&gt; in India_Polls.EnterAddressViewModel.initialize(with: Swift.Optional&lt;Swift.Dictionary&lt;India_Polls.KeyType, Any&gt;&gt;) -&gt; ()"
+                  moduleName = "India Polls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandeeppandey/Repo/indiapolls/src/ios/India%20Polls/ViewModels/EnterAddressViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "A971BF42-4ADD-4CB7-98F5-80232D50E9C9 - d348d29ef5476b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async throws -&gt; India_Polls.ServerResponseDto&lt;India_Polls.RegioDto&gt; in India_Polls.EnterAddressViewModel.initialize(with: Swift.Optional&lt;Swift.Dictionary&lt;India_Polls.KeyType, Any&gt;&gt;) -&gt; ()"
+                  moduleName = "India Polls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandeeppandey/Repo/indiapolls/src/ios/India%20Polls/ViewModels/EnterAddressViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39CA8DAF-6ED3-4109-A13B-12FA62C99157"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "India Polls/ViewModels/EnterAddressViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "zipCodeWasChanged()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

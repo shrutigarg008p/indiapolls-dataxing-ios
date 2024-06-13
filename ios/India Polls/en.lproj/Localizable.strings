@@ -1,0 +1,146 @@
+"login_header" = "Sign in to get in touch";
+"prompt_your_email" = "Enter your email address";
+"prompt_password" = "Enter password";
+"prompt_your_mobile_number" = "Enter your mobile number";
+"prompt_confirm_password" = "Enter confirm password";
+"forgot_password_register" = "Forgot Password?";
+"login" = "Login";
+"or" = "OR";
+"login_with_otp" = "Login with OTP";
+"connect_with_facebook" = "Connect with facebook";
+"do_not_have_an_account" = "Do not have an account? ";
+"sign_up" = "Sign Up";
+
+"register_header" = "Register";
+"register_sub_header" = "Please provide following information to continue";
+"signing_up_terms" = "I agree to the <a href=\"https://test.indiapolls.com/#/terms\">Terms</a> of Use and to receive email messages from IndiaPolls, and I accept the <a href=\"https://panel.indiapolls.com/#/privacy-policy\">Privacy Policy</a>";
+"prompt_first_name" = "First Name";
+"prompt_last_name" = "Last Name";
+"prompt_mobile" = "Mobile";
+"gender" = "Gender";
+"prompt_date_of_birth" = "Date of birth";
+"next" = "Next";
+"address1" = "Address 1";
+"address2" = "Address 2";
+"country" = "Country";
+"state" = "State";
+"city_or_post_office" = "City/Post Office";
+"select_referral" = "Select Referral";
+"pin_code" = "Pin Code";
+"submit" = "Submit";
+"otp_verification_help_text" = "Please verify one time password sent to you";
+"resend_code" = "Resend Code?";
+"verify_otp" = "Verify OTP";
+
+"thank_you_for_completion" = "Thank you for completion!";
+"complete" = "Complete";
+
+"my_surveys" = "My Surveys";
+"my_dashboard" = "My Dashboard";
+"my_rewards" = "My Rewards";
+"my_profiles" = "My Profiles";
+"contact_us" = "Contact us";
+"refer_a_friend" = "Refer a friend";
+
+"logout" = "Logout";
+
+"redeem_points" = "Redeem points";
+
+"not_started" = "Not started";
+"update" = "Update";
+
+"query" = "Query";
+"subject" = "Subject";
+"body" = "Body";
+
+"live_survey" = "Live survey";
+"new_text" = "New";
+"take_survey" = "Take survey";
+"take_a_survey" = "Take a survey";
+"survey" = "Survey";
+
+"my_profile" = "My Profile";
+"verify_mobile" = "Verify Mobile";
+"change_password" = "Change Password";
+"unsubscribe_email" = "Unsubscribe Email";
+"delete_account" = "Delete Account";
+
+"prompt_enter_name" = "Enter name";
+"prompt_enter_email" = "Enter email";
+"prompt_enter_mobile" = "Enter mobile";
+"refer" = "Refer";
+
+"min" = "min";
+
+"select_option" = "Select an option";
+
+"forgot_password" = "Forgot Password";
+"prompt_current_password" = "Current password";
+"prompt_new_password" = "New password";
+"prompt_confirm_new_password" = "Confirm new password";
+
+"permission_dialog_title" = "Permission";
+"notification_permission_dialog_message" = "Please Change your permissions from setting.";
+"Okay" = "Okay";
+
+"points" = "Points";
+"description" = "Description";
+"select_mode" = "Select mode";
+
+"select_image_dialog_title" = "Select image";
+"select_date" = "Select date";
+
+"info" = "Information";
+"error" = "Error";
+"general_error_message" = "Something went wrong, please try again later.";
+
+"faq" = "FAQ";
+
+"invalid_otp" = "Not a valid OTP";
+"invalid_email" = "Not a valid email";
+"invalid_mobile_number" = "Not a valid mobile number";
+"invalid_password" = "Not a valid password";
+"invalid_confirm_password" = "Not a valid confirm password";
+"invalid_terms_and_conditions" = "Please select terms and conditions";
+
+"invalid_name" = "Not a valid name";
+"invalid_first_name" = "Not a valid first name";
+"invalid_last_name" = "Not a valid last name";
+"invalid_gender" = "Please select a gender";
+"invalid_date_of_birth" = "Not a valid date of birth";
+"invalid_address" = "Not a valid address";
+"invalid_pin_code" = "Not a valid pin code";
+"invalid_country" = "Please select a country";
+"invalid_state" = "Please select a state";
+"invalid_city" = "Please select a city/postal code";
+"invalid_referral_code" = "Please select a referral code";
+"invalid_points" = "Not a valid point";
+"invalid_mode" = "Please select a mode";
+"invalid_query" = "Please select a query";
+"invalid_subject" = "Not a valid subject";
+"image_path_error" = "Failed to get image path";
+
+"male" = "Male";
+"female" = "Female";
+"other" = "Other";
+
+"open_camera" = "Open camera";
+"open_gallery" = "Open gallery";
+"cancel" = "Cancel";
+
+"general" = "General";
+"rewards_related" = "Rewards Related";
+"surveys_related" = "Surveys Related";
+
+"ad_flier_newspaper" = "Ad flier with newspaper";
+"ad_flier_other" = "Ad flier at market/outdoors";
+"ad_on_website" = "Saw an ad on a website";
+"blog_forum" = "Read about it on a blog/forum";
+"cafe_coffee_day" = "Ad at Café Coffee Day";
+"email_from_friend" = "Got an email from a friend/colleague";
+"email_from_web_portal" = "Email from a web portal/service/jobsite";
+"searched_on_google_com" = "Searched on google.com";
+"other" = "Other";
+"searched_on_another_search_engine" = "Searched on another search engine";
+"ad_at_a_shop_restaurant" = "Ad at a shop/restaurant";
+"word_of_mouth_from_friend_colleague" = "Word of mouth from friend/colleague";

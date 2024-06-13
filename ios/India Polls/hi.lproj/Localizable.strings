@@ -1,0 +1,145 @@
+"login_header" ="संपर्क में आने के लिए साइन इन करें";
+"prompt_your_email" ="अपना ईमेल पता दर्ज करें";
+"prompt_password" ="पासवर्ड दर्ज करें";
+"prompt_your_mobile_number" ="अपना मोबाइल नंबर दर्ज करें";
+"prompt_confirm_password" ="पासवर्ड की पुष्टि करें";
+"forgot_password_register" ="पासवर्ड भूल गए?";
+"login" ="लॉग इन करें";
+"or" ="या";
+"login_with_otp" ="ओटीपी से  लॉग इन करें";
+"connect_with_facebook" ="फेसबुक से कनेक्ट करें";
+"do_not_have_an_account" ="कोई खाता नहीं है? ";
+"sign_up" ="पंजीकरण करें";
+
+"register_header" ="पंजीकरण करें";
+"register_sub_header" ="कृपया जारी रखने के लिए निम्नलिखित जानकारी प्रदान करें";
+"signing_up_terms" ="मै उपयोग की <a href=\"https://panel.indiapolls.com/#/terms-hi\">शर्तें</a> और IndiaPolls से ईमेल संदेश प्राप्त करने के लिए सहमत हूं तथा मै <a href=\"https://panel.indiapolls.com/#/privacy-policy-hi\">गोपनीयता नीतिं</a> स्वीकार करता हू।";
+"prompt_first_name" ="पहला नाम";
+"prompt_last_name" ="उपनाम";
+"prompt_mobile" ="मोबाइल नंबर";
+"gender" ="लिंग";
+"prompt_date_of_birth" ="जन्म की तारीख";
+"next" ="अगला";
+"address1" ="पता पंक्ति 1";
+"address2" ="पता पंक्ति 2";
+"country" ="देश";
+"state" ="राज्य";
+"city_or_post_office" ="शहर";
+"select_referral" ="एक रेफरल का चयन करें";
+"pin_code" ="पिन कोड";
+"submit" ="जमा करें";
+"otp_verification_help_text" ="कृपया आपको भेजे गए ओटीपी को सत्यापित करें";
+"resend_code" ="पुन: कोड भेजे?";
+"verify_otp" ="ओटीपी सत्यापित करें";
+"thank_you_for_completion" ="पूरा करने के लिए धन्यवाद!";
+"complete" ="पूर्ण करे";
+
+"my_surveys" ="मेरे सर्वेक्षण";
+"my_dashboard" ="मेरा डैशबोर्ड";
+"my_rewards" ="मेरे पुरस्कार";
+"my_profiles" ="मेरे प्रोफाइल";
+"contact_us" ="संपर्क करें";
+"refer_a_friend" ="एक मित्र को संदर्भित करें";
+
+"logout" ="लॉग आउट";
+
+"redeem_points" ="अंक भुनाएं";
+
+"not_started" ="शुरू नहीं हुआ";
+"update" ="अद्यतन";
+
+"query" ="सवाल";
+"subject" ="विषय";
+"body" ="शरीर";
+
+"live_survey" ="लाइव सर्वेक्षण";
+"new_text" ="नया";
+"take_survey" ="सर्वेक्षण करें";
+"take_a_survey" ="एक सर्वेक्षण लें";
+"survey" ="सर्वेक्षण";
+
+"my_profile" ="मेरे प्रोफाइल";
+"verify_mobile" ="मोबाइल सत्यापित करें";
+"change_password" ="पासवर्ड बदलें";
+"unsubscribe_email" ="ईमेल अनसब्सक्राइब करें";
+"delete_account" ="खाता हटाएँ";
+
+"prompt_enter_name" ="नाम दर्ज करें";
+"prompt_enter_email" ="ईमेल दर्ज करें";
+"prompt_enter_mobile" ="मोबाइल दर्ज करें";
+"refer" ="संदर्भित करें";
+
+"min" ="मिनट";
+
+"select_option" ="एक विकल्प चुनें";
+
+"forgot_password" ="पासवर्ड भूल गए";
+"prompt_current_password" ="वर्तमान पासवर्ड";
+"prompt_new_password" ="नया पासवर्ड";
+"prompt_confirm_new_password" ="नए पासवर्ड की पुष्टि करें";
+
+"permission_dialog_title" ="अनुमति";
+"notification_permission_dialog_message" ="कृपया सेटिंग से अपनी अनुमतियाँ बदलें.";
+"Okay" ="ठीक है";
+
+"points" ="अंक";
+"description" ="विवरण";
+"select_mode" ="प्रकार का चयन करेंं";
+
+"select_image_dialog_title" ="इमेज  चुने";
+"select_date" ="तारीख़ चुनें";
+
+"info" = "जानकारी";
+"error" = "गलती";
+"general_error_message" = "कुछ गलत हो गया है। कृपया बाद में दोबारा प्रयास करें";
+
+"faq" = "पूछे जाने वाले प्रश्न";
+
+"invalid_otp" ="ओटीपी मान्य नहीं";
+"invalid_email" ="ईमेल मान्य नहीं";
+"invalid_mobile_number" ="मोबाइल नंबर मान्य नहीं";
+"invalid_password" ="पासवर्ड मान्य नहीं";
+"invalid_confirm_password" ="पुष्टि पासवर्ड मान्य नहीं है";
+"invalid_terms_and_conditions" ="कृपया नियम एवं शर्तें चुनें";
+
+"invalid_name" ="नाम मान्य नहीं";
+"invalid_first_name" ="पहला नाम मान्य नहीं";
+"invalid_last_name" ="उपनाम मान्य नहीं";
+"invalid_gender" ="कृपया एक लिंग चुनें";
+"invalid_date_of_birth" ="जन्मतिथि मान्य नहीं";
+"invalid_address" ="पता मान्य नहीं";
+"invalid_pin_code" ="पिन कोड मान्य नहीं";
+"invalid_country" ="देश  मान्य नहीं";
+"invalid_state" ="राज्य  मान्य नहीं";
+"invalid_city" ="शहर/डाक कोड  मान्य नहीं";
+"invalid_referral_code" ="रेफरल कोड  मान्य नहीं";
+"invalid_points" ="अंक  मान्य नहीं";
+"invalid_mode" ="मोड  मान्य नहीं";
+"invalid_query" ="सवाल मान्य नहीं";
+"invalid_subject" ="विषय मान्य नहीं";
+"image_path_error" ="छवि पथ प्राप्त करने में विफल";
+
+"male" = "पुरुष";
+"female" = "महिला";
+"other" = "अन्य";
+
+"open_camera" = "कैमरा खोलें";
+"open_gallery" = "गैलरी खोलें";
+"cancel" = "रद्द करें";
+
+"general" = "सामान्य";
+"rewards_related" = "पुरस्कार से संबंधित";
+"surveys_related" = "सर्वेक्षण से संबंधित";
+
+"ad_flier_newspaper" = "अखबार में विज्ञापन";
+"ad_flier_other" = "बाज़ार/बाहर में विज्ञापन";
+"ad_on_website" = "एक वेबसाइट पर विज्ञापन देखा";
+"blog_forum" = "किसी ब्लॉग/फ़ोरम पर इसके बारे में पढ़ा है";
+"cafe_coffee_day" = "कैफ़े कॉफ़ी डे पर विज्ञापन";
+"email_from_friend" = "किसी मित्र/सहकर्मी से ईमेल मिला";
+"email_from_web_portal" = "वेब पोर्टल/सेवा/जॉबसाइट से ईमेल";
+"searched_on_google_com" = "गूगल.कॉम पर खोजा गया";
+"other" = "अन्य";
+"searched_on_another_search_engine" = "किसी अन्य खोज इंजन पर खोजा गया";
+"ad_at_a_shop_restaurant" = "दुकान/रेस्तरां में विज्ञापन";
+"word_of_mouth_from_friend_colleague" = "मित्र/सहकर्मी से सुना";

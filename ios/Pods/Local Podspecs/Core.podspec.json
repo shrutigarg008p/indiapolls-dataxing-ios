@@ -1,0 +1,27 @@
+{
+  "name": "Core",
+  "version": "0.1.0",
+  "summary": "A short description of Core.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/polls/Core",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "polls": "polls@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/polls/Core.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Core/Module/**/*",
+  "dependencies": {
+    "Networking": [
+
+    ]
+  }
+}

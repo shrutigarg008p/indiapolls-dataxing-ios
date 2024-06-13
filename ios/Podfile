@@ -1,0 +1,52 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+workspace 'India Polls.xcworkspace'
+project 'India Polls.xcodeproj'
+
+def networking_pod
+  pod 'Networking', :path => 'DevPods/Networking'
+end
+
+def core_pod
+  pod 'Core', :path => 'DevPods/Core'
+end
+
+target 'India Polls' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  networking_pod
+  core_pod
+  
+  # Pods for India Polls
+  pod 'MaterialComponents/TextControls+OutlinedTextFields'
+  pod 'MaterialComponents/TextControls+OutlinedTextAreas'
+  pod 'Kingfisher', '~> 7.0'
+  pod 'FirebaseMessaging'
+  pod 'FirebaseAuth'
+end
+
+target 'Networking_Example' do
+  use_frameworks!
+  project 'DevPods/Networking/Example/Networking.xcodeproj'
+  
+  networking_pod
+end
+
+target 'Core_Example' do
+  use_frameworks!
+  project 'DevPods/Core/Example/Core.xcodeproj'
+  
+  core_pod
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['EXPANDED_CODE_SIGNING_IDENTITY'] = ""
+      config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+      config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contact Us View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ContactUsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ContactUsViewController" customModule="India_Polls" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fkp-XD-nU3" customClass="NavigationBarView" customModule="India_Polls" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="553.66666666666663"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8G-AI-Oul">
+                                <rect key="frame" x="0.0" y="612.66666666666663" width="393" height="133.33333333333337"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4C-Lu-WRv">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="133.33333333333334"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fin-bc-B6x">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="133.33333333333334"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="tfD-eU-AhI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="133.33333333333334"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter your email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJ3-1W-JtS" customClass="MDCOutlinedTextField">
+                                                                <rect key="frame" x="24" y="46" width="345" height="18.666666666666671"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter your email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="50T-Uu-09p" customClass="MDCOutlinedTextField">
+                                                                <rect key="frame" x="24" y="90.666666666666742" width="345" height="18.666666666666671"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="46" left="24" bottom="24" right="24"/>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="fin-bc-B6x" secondAttribute="bottom" id="0d2-fm-PlD"/>
+                                            <constraint firstItem="fin-bc-B6x" firstAttribute="leading" secondItem="C4C-Lu-WRv" secondAttribute="leading" id="8cZ-To-w6z"/>
+                                            <constraint firstAttribute="trailing" secondItem="fin-bc-B6x" secondAttribute="trailing" id="XO2-n7-O97"/>
+                                            <constraint firstItem="fin-bc-B6x" firstAttribute="top" secondItem="C4C-Lu-WRv" secondAttribute="top" id="ZfV-Xs-q2v"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="C4C-Lu-WRv" secondAttribute="bottom" id="bKg-lU-EjP"/>
+                                    <constraint firstItem="C4C-Lu-WRv" firstAttribute="height" secondItem="S8G-AI-Oul" secondAttribute="height" priority="250" id="cVp-8u-tdl"/>
+                                    <constraint firstItem="C4C-Lu-WRv" firstAttribute="top" secondItem="S8G-AI-Oul" secondAttribute="top" id="cZF-lf-z3H"/>
+                                    <constraint firstItem="C4C-Lu-WRv" firstAttribute="leading" secondItem="S8G-AI-Oul" secondAttribute="leading" id="g55-Wg-V6u"/>
+                                    <constraint firstAttribute="trailing" secondItem="C4C-Lu-WRv" secondAttribute="trailing" id="nCa-ev-WDc"/>
+                                    <constraint firstItem="C4C-Lu-WRv" firstAttribute="width" secondItem="S8G-AI-Oul" secondAttribute="width" id="wGm-VU-GuJ"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="u2M-fQ-rmo"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dfp-3z-Uhf"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oow-KM-gd6">
+                                <rect key="frame" x="24" y="746" width="345" height="48"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="GXG-9s-v7T"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="DefaultBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Oow-KM-gd6" secondAttribute="trailing" constant="24" id="7PY-Mf-zVB"/>
+                            <constraint firstItem="Oow-KM-gd6" firstAttribute="top" secondItem="S8G-AI-Oul" secondAttribute="bottom" id="9lb-w3-WIc"/>
+                            <constraint firstItem="S8G-AI-Oul" firstAttribute="top" secondItem="fkp-XD-nU3" secondAttribute="bottom" id="DjO-Gk-sPy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Oow-KM-gd6" secondAttribute="bottom" constant="24" id="EV6-Fx-YI2"/>
+                            <constraint firstItem="fkp-XD-nU3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="GmF-4z-qq7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="S8G-AI-Oul" secondAttribute="trailing" id="PMF-tX-4Te"/>
+                            <constraint firstItem="Oow-KM-gd6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="Q07-Hm-A1b"/>
+                            <constraint firstItem="fkp-XD-nU3" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="SfQ-xg-xn8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fkp-XD-nU3" secondAttribute="trailing" id="atH-wq-G5H"/>
+                            <constraint firstItem="S8G-AI-Oul" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cIp-MY-dI3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navigationBarView" destination="fkp-XD-nU3" id="nZB-tp-bWM"/>
+                        <outlet property="queryTypeTextField" destination="XJ3-1W-JtS" id="369-tR-5nC"/>
+                        <outlet property="scrollView" destination="S8G-AI-Oul" id="LsP-9D-MDl"/>
+                        <outlet property="subjectTextField" destination="50T-Uu-09p" id="EcO-L1-GX5"/>
+                        <outlet property="submitButton" destination="Oow-KM-gd6" id="UkH-Ut-OWL"/>
+                        <outlet property="textFieldContainerView" destination="tfD-eU-AhI" id="NxX-ok-SZ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.92941176470588238" green="0.51764705882352946" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="DefaultBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
