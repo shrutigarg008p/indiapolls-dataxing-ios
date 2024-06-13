@@ -25,13 +25,21 @@ struct HomeView: View {
                         .frame(height: Dimen.dimen40)
                     
                     if message.hasValue {
-                        Text(message.orEmpty)
+                        Text(message.orEmpty.split(separator: ".")[0])
                             .font(Font.custom(Fonts.Medium, size: FontSize.size16))
                             .foregroundColor(Color(color))
                             .padding(.bottom, 12)
                             .onTapGesture {
                                 viewModel.dashboardMessageWasTapped()
                             }
+                        Text(message.orEmpty.split(separator: ".")[1])
+                            .font(Font.custom(Fonts.Medium, size: FontSize.size16))
+                            .foregroundColor(Color(.green))
+                            .padding(.bottom, 12)
+                            .onTapGesture {
+                                viewModel.dashboardMessageWasTapped()
+                            }
+                        
                     }
                     
                     Spacer()
