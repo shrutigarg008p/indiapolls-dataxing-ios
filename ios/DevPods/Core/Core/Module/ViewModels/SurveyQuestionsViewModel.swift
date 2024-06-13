@@ -136,7 +136,7 @@ public class SurveyQuestionItemView {
     let id: String
     let profileId: String
     public let text: String
-    let hint: String
+    public let hint: String
     let questionId: Int?
     let displayOrder: Int
     let isActive: Bool
@@ -149,7 +149,7 @@ public struct OptionItemView {
     let id: String
     let questionId: String
     public let value: String
-    let hint: String
+    public let hint: String
     let displayOrder: Int
     let isActive: Bool
     public var isSelected: Bool

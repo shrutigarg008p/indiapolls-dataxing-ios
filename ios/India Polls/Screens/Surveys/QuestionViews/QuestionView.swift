@@ -70,8 +70,18 @@ class QuestionView: UIView {
             guard let self = self else { return }
 
             question.options[index].isSelected = view.checked
+            
         }
-        view.set(title: option.value, checked: option.isSelected)
+        
+        if(option.hint.contains("MA"))
+        {
+            view.set(title: option.value+" (Clear Other Chekboxes)", checked: option.isSelected)
+                                        
+        }
+        else
+        {
+            view.set(title: option.value, checked: option.isSelected)
+        }
 
         return view
     }
